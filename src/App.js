@@ -1,10 +1,10 @@
-
 import './App.css';
+import Login from './Login';
 
 function App() {
   return (
     <div className="app">
-     <h1>Spotify clone</h1>
+      <Login/>
     </div>
   );
 }
