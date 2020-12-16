@@ -23,7 +23,14 @@ function App() {
 
   return (
     <div className="app">
-      <Login/>
+      {
+        token ? (
+          // <Player/>
+          <h1>I am logged in</h1>
+        ) : (
+          <Login/>
+        )
+      }
     </div>
   );
 }
