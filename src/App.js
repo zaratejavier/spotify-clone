@@ -40,10 +40,10 @@ function App() {
       })
     }
     
-    console.log("I have a token" , token)
+    // console.log("I have a token" , token)
   }, []);
-  console.log("I have a user", user)
-  console.log("I have a token" , token)
+  // console.log("I have a user", user)
+  // console.log("I have a token" , token)
   
   
 
@@ -52,7 +52,7 @@ function App() {
       {
         token ? (
           // <h1>I am logged in</h1>
-          <Player/>
+          <Player spotify={spotify}/>
         ) : (
           <Login/>
         )
